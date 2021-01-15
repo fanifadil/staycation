@@ -1,6 +1,7 @@
 import React from "react";
 import { render, fireEvent } from "@testing-library/react";
-// import { screen } from "@testing-library/dom";
+// eslint-disable-next-line no-unused-vars
+import { screen } from "@testing-library/dom";
 import InputDate from "./index";
 
 class TestInput extends React.Component {
